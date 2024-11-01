@@ -9,8 +9,8 @@ const ToDoInput = (props) => {
             setTodoValue(e.target.value)
         }} />
         <button onClick={()=>{
-            handleAddTodos(todoValue)
-            document.getElementById('thisinput').value = ""
+            handleAddTodos(todoValue);
+            document.getElementById('thisinput').value = ''
         }}>Add</button>
     </header>
   )
